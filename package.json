@@ -4,7 +4,8 @@
   "description": "Gitflow basics for interns",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "size": "./node_modules/.bin/size-limit",
+    "test": "npm run size"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/tjmonsi/gitflow-basics-for-interns/issues"
   },
-  "homepage": "https://github.com/tjmonsi/gitflow-basics-for-interns#readme"
+  "homepage": "https://github.com/tjmonsi/gitflow-basics-for-interns#readme",
+  "devDependencies": {
+    "size-limit": "^0.18.1"
+  },
+  "size-limit": [
+    {
+      "path": "index.js",
+      "limit": "1KB"
+    }
+  ]
 }
