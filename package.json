@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tjmonsi/gitflow-basics-for-interns/issues"
   },
-  "homepage": "https://github.com/tjmonsi/gitflow-basics-for-interns#readme"
+  "homepage": "https://github.com/tjmonsi/gitflow-basics-for-interns#readme",
+  "devDependencies": {
+    "size-limit": "^0.18.1"
+  }
 }
