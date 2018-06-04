@@ -1,0 +1,19 @@
+{
+  "name": "gitflow-basics-for-interns",
+  "version": "0.0.0",
+  "description": "Gitflow basics for interns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmonsi/gitflow-basics-for-interns.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmonsi/gitflow-basics-for-interns/issues"
+  },
+  "homepage": "https://github.com/tjmonsi/gitflow-basics-for-interns#readme"
+}
