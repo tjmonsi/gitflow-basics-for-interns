@@ -1,0 +1,13 @@
+sudo: required
+addons:
+  sauce_connect: true
+  firefox: latest
+  chrome: stable
+language: node_js
+node_js:
+- 10.0.3
+script: npm test
+branches:
+  only:
+  - master
+  - develop
